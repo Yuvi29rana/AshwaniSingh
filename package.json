@@ -1,9 +1,13 @@
 {
   "name": "assignment-2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^18.00.0",
+    "npm": "^8.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -16,5 +20,18 @@
     "jquery": "^3.6.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvi29rana/AshwaniSingh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuvi29rana/AshwaniSingh/issues"
+  },
+  "homepage": "https://github.com/Yuvi29rana/AshwaniSingh#readme",
+  "description": ""
 }
